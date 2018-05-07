@@ -1,64 +1,36 @@
-html {
-  font: 100%/1.15 sans-serif;
-}
-body,
-figure,
-figcaption{
-  margin:0;
-}
-/*resets-reseting the defualt values of the browser*/
-/*flexible images*/
-img{
-  width: auto; /*making the width 100% of the page, only going as far as the image actually is*/
-  max-width:100%;
-  vertical-align: middle; /* remove descender spacing */
-  /*if there is a height property add in height:auto*/
-}
-/*fig-1*/
-#fig-1 div {
-  border: 1em double #E8F8F5;
-
-}
-.crop-square-w24 {
-  max-width: 24em;
-  height: 24em;
-  margin: 0 auto
-}
-#fig-1 {
-  max-width: 60em;
-  margin: ) auto;
-  text-align: center;
-}
 body {
   width: 90%;
   max-width:48 em;
   margin: 0 auto;
+  background-color:#ff0;
 }
 nav li{
   display:inline;
 }
 nav a{
-  display:inline-table;;
-  text decoration: block;
+  display:inline-block;
+  text decoration: none;
   padding:1em;
-  border:3px dotted #fff;
+  border:1px solid #fff;
   border-radius:.5em;
 }
 }
 a{
-  color:#A9DFBF;
+  color:#fff;
 }
 a:hover{
-  color:#0B5345;
+  color:#000;
 }
 
 
 
+
+/* --- layout for wider width screens ---*/
+/*breakpoint*/
 @media (min-width: 60em) {
 
 body {
-  background-color: #A9DFBF;
+  background-color: #ff0;
 }
 
 }
-/* -- download image, open up photoshop-dealing with jpeg image, when open up in psd go to file-save for web-jpeg high-optemize-when saving it save in your file folder under img and then save the width afterwards so to know that it is different than the original image
